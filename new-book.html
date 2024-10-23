@@ -18,6 +18,7 @@
       crossorigin="anonymous"
     />
   </head>
+
   <body>
     <header>
       <nav
@@ -97,9 +98,48 @@
 
     <!-- MAIN  -->
     <main>
-      <div class="container">
+      <div class="container pt-5">
+       <div class="title pt-5 pb-3">
         <h2>Nuovo Libro</h2>
-        <p>ciao</p>
+       </div>
+       <form>
+       <div class="row">
+        <div class="col-6">
+            <div class="mb-3">
+                <label for="name" class="form-label">Nome Autore</label>
+                <input type="text" class="form-control" id="name" placeholder="Inserisci il nome dell'autore">
+                
+              </div>
+        </div>
+        <div class="col-6">
+            <div class="mb-3">
+                <label for="surname" class="form-label">Cognome Autore</label>
+                <input type="text" class="form-control" id="surname" placeholder="Inserisci il cognome">
+                
+              </div>
+        </div>
+        <div class="col-12">
+            <div class="mb-3">
+                <label for="title" class="form-label">Titolo</label>
+                <input type="email" class="form-control" id="title" placeholder="Inserisci il titolo del libro">
+                <div id="text" class="form-text">Titolo versione italiana</div>
+              </div>
+        </div>
+       </div>
+
+       <div class="row">
+        <div class="col-12 col-lg-4"></div>
+        <div class="col-12 col-lg-4"></div>
+        <div class="col-12 col-lg-4"></div>
+       </div>
+       <hr>
+
+       <div class="row">
+        <div class="col-12"></div>
+       </div>
+    </form>
+       
+        
       </div>
     </main>
   </body>
